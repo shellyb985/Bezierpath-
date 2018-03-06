@@ -59,6 +59,10 @@
     layer.shadowOffset = CGSizeMake(0.0, 2.0);
 
     layer.path = path.CGPath;
+    
+    
+    CALayer *layer = []
+    
     [self.curveView.layer addSublayer:layer];
 
 }
